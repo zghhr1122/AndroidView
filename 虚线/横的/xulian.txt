@@ -1,0 +1,30 @@
+ // 横虚线
+
+<TextView
+        android:id="@+id/xu_xian"
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:layout_centerVertical="true"
+        android:layerType="software"
+        android:background="@drawable/sxuxian"
+        app:layout_constraintStart_toStartOf="@+id/all_ti"
+        app:layout_constraintEnd_toEndOf="@+id/all_ti"
+        app:layout_constraintTop_toBottomOf="@+id/all_ti"
+        />
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+        android:shape="line">
+        <stroke
+        android:width="1dp"
+        android:color="#4D333333"
+        android:dashGap="5dp"
+        android:dashWidth="6dp"/>
+ </shape>
+<!--
+宽度
+虚线颜色
+虚线间隔宽度
+虚线的宽度
+-->
